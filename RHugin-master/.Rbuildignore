@@ -1,0 +1,5 @@
+^Rmarkdown
+^docs
+
+^.*\.Rproj$
+^\.Rproj\.user$

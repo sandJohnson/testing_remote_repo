@@ -1,0 +1,42 @@
+---
+title: "RHugin User's Guide"
+author: "Kjell Konis"
+site: "bookdown::bookdown_site"
+documentclass: book
+output:
+  bookdown::gitbook: default
+  bookdown::pdf_book: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# The `RHugin` Project
+R-Forge: &ensp;
+[Summary](https://r-forge.r-project.org/projects/rhugin/) &emsp;
+[Activity](https://r-forge.r-project.org/activity/?group_id=209) &emsp;
+[Lists](https://r-forge.r-project.org/mail/?group_id=209) &emsp;
+[SCM](https://r-forge.r-project.org/scm/?group_id=209)
+
+***
+
+## `RHugin`
+
+`RHugin` is an R package that provides an R API for the HUGIN Decision Engine (HDE). The `RHugin` package itself is free software and is distributed under the terms of the [LGPL](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html). The HUGIN Decision Engine is commercial software developed by [Hugin Expert A/S](http://www.hugin.com/) and is required for the `RHugin` package to function (please note that the `RHugin` package is not supported by Hugin Expert A/S).
+
+
+***
+
+## Installing `RHugin`
+             
+The `RHugin` package is supported on all the platforms where the HUGIN Decision Engine is supported. Installation instructions are platform dependent.
+
+1. [Microsoft Windows](InstallingRHuginWindows.html)
+2. [Mac OS X](InstallingRHuginMacOSX.html)
+3. [Linux](InstallingRHuginLinux.html)
+
+
+
+
